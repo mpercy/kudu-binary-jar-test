@@ -19,13 +19,24 @@
 :author: Kudu Team
 :homepage: https://kudu.apache.org/
 
-This is an example program that uses the synchronous Kudu Java client APIs to
+This is an example program that uses the synchronous Kudu Java client APIs to:
 
 - Create a table
 - Insert some rows
 - Alter the table
 - Scan some rows
 - Delete the table
+
+== To test the example tool
+
+To test that this example is working using the Kudu binary jar, run the unit tests as follows:
+
+[source,bash]
+----
+$ mvn test
+----
+
+== To build and use the example tool
 
 To build and run, ensure maven is installed and from the java-example directory run:
 
